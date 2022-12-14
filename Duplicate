@@ -1,0 +1,14 @@
+lis = [1,5,9,0,9]
+uniqueList = []
+duplicateList = []
+for i in lis:
+    if i not in uniqueList:
+        uniqueList.append(i)
+    elif i not in duplicateList:
+        duplicateList.append(i)
+print('duplicateList=',duplicateList)
+
+O/p....
+duplicateList= [9]
+
+[Program finished]
